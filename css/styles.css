@@ -1,0 +1,23 @@
+/* Body */
+.body-page {
+    font-family: Roboto;
+    color: #2E2F42;
+    background-color: #FFF;
+}
+
+
+
+
+
+
+/* Page Header */
+.logo:hover, 
+.logo:focus {
+
+}
+
+.heder-links:hover,
+.heder-links:focus {
+    color: #404BBF;
+    text-decoration: none;
+}
