@@ -16,9 +16,9 @@ button {
 
 /* ===============Header styles====================== */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
+font-family: 'Roboto', sans-serif;
+background-color: #FFFFFF;
+color: #434455;
 }
 
 .logo { 
@@ -27,11 +27,12 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
-color: #4D5AE5;
+text-transform: uppercase;
+color: #4d5ae5;
 }
 
 span {
-    color: #2E2F42;
+    color: #2e2f42;
     font-family: inherit;
 }
 
@@ -50,7 +51,7 @@ color:#2E2F42;
 }
 
 .address {
-    font-style: normal;
+font-style: normal;
 }
 
 .address-menu-link {
@@ -72,7 +73,7 @@ color: #434455;
 
 /* =============Hero styles====================== */
 .hero {
-    background-color: #2e2f42;
+background-color:#2e2f42;
 }
 
 .main-title {
