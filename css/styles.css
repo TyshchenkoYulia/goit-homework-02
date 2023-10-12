@@ -140,7 +140,8 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-.team-list-item {
+.team-list-fullname,
+.team-list-position {
 background-color: #FFFFFF;
 }
 
