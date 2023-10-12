@@ -1,23 +1,64 @@
-/* Body */
-.body-page {
-    font-family: Roboto;
-    color: #2E2F42;
-    background-color: #FFF;
+/* ==================Common styles================ */
+.menu,
+.address-menu 
+{
+    list-style-type: none;
 }
 
-
-
-
-
-
-/* Page Header */
-.logo:hover, 
-.logo:focus {
-
-}
-
-.heder-links:hover,
-.heder-links:focus {
-    color: #404BBF;
+.link {
     text-decoration: none;
+ }
+
+button {
+    cursor: pointer;
 }
+/* ==================Common styles================ */
+
+/* ===============Header styles====================== */
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+.logo { 
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+
+span {
+    color: #4D5AE5;
+    font-family: inherit;
+}
+
+.menu-link {
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.address-menu-link {
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;  
+color: #434455;
+}
+
+.address-menu-link:hover,
+.address-menu-link:focus {
+    color: #404BBF;
+}
+
+/* ===============Header styles====================== */
