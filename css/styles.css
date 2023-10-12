@@ -1,6 +1,5 @@
 /* ==================Common styles================ */
-.menu,
-.address-menu 
+.list 
 {
     list-style-type: none;
 }
@@ -62,3 +61,29 @@ color: #434455;
 }
 
 /* ===============Header styles====================== */
+/* =============Hero styles====================== */
+
+.main-title {
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.order-service-btn {  
+font-size: 16px;
+font-weight: 500;
+background-color: #4D5AE5;
+color:  #FFFFFF; 
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+background-color: #404BBF;
+color:  #FFFFFF;
+}
+
+/* =============Hero styles====================== */
+/* =============Benefits styles */
+
+
