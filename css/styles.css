@@ -140,9 +140,11 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-.team-list-item {
+.team-list-fullname,
+.team-list-position {
 background-color: #FFFFFF;
 }
+
 .team-list-fullname {    
 font-size: 20px;
 font-weight: 500;
