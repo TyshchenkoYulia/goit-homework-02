@@ -16,9 +16,9 @@ button {
 
 /* ===============Header styles====================== */
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    color: #2E2F42;
+    color: #434455;
 }
 
 .logo { 
@@ -27,11 +27,11 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
-color: #2E2F42;
+color: #4D5AE5;
 }
 
 span {
-    color: #4D5AE5;
+    color: #2E2F42;
     font-family: inherit;
 }
 
@@ -47,6 +47,10 @@ color:#2E2F42;
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-menu-link {
@@ -67,20 +71,29 @@ color: #434455;
 
 
 /* =============Hero styles====================== */
+.hero {
+    background-color: #2e2f42;
+}
 
 .main-title {
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff 
 }
 
 .order-service-btn {  
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
+line-height: 1.50;
+letter-spacing: 0.04em;
 background-color: #4D5AE5;
 color:  #FFFFFF; 
 }
+
 
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -112,13 +125,22 @@ color: #434455;
 /* =============Benefits styles============== */
 
 /* =============Team styles============== */
+.team {
+background-color: #F4F4FD
+}
 
 .team-title {
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 color: #2E2F42;
+}
+
+.team-list {
+background-color: #FFFFFF
 }
 
 .team-list-fullname {    
@@ -146,6 +168,8 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 color: #2E2F42;
 }
 
@@ -168,16 +192,25 @@ color: #434455;
 /* =============Portfolio styles============== */
 
 
-/* =============Footerstyles============== */
+/* =============Footer styles============== */
+
+.page-footer {
+  background-color: #2e2f42;
+}
 
 .page-footer-logo {
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
-color: #F4F4FD;
+text-transform: uppercase;
+color: #4d5ae5;
 }
 
+.footer-logo-span {
+color: #f4f4fd;
+}
 .page-footer-text {
 font-size: 16px;
 font-weight: 400;
@@ -185,4 +218,4 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
-/* =============Footerstyles============== */
+/* =============Footer styles============== */
