@@ -82,7 +82,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #ffffff 
+color: #ffffff; 
 }
 
 .order-service-btn {  
@@ -127,7 +127,7 @@ color: #434455;
 
 /* =============Team styles============== */
 .team {
-background-color: #F4F4FD
+background-color: #F4F4FD;
 }
 
 .team-title {
@@ -141,7 +141,11 @@ color: #2E2F42;
 }
 
 .team-list {
-background-color: #FFFFFF
+background-color: #FFFFFF;
+}
+
+.team-list-item {
+background-color: #FFFFFF;
 }
 
 .team-list-fullname {    
